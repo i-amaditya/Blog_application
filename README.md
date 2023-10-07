@@ -1,15 +1,5 @@
 # Blog Application - End-to-End Development Readme
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Getting Started](#getting-started)
-5. [Folder Structure](#folder-structure)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
-
 ## Introduction
 Welcome to the Blog Application project! This application is designed to help you build a feature-rich blog application from scratch, covering various modules such as user login, sign-up, post management (addition, deletion, and updating), search functionality, and more. Additionally, this project emphasizes the use of Object-Oriented Programming (OOP) concepts for code organization and modularity.
 
@@ -74,38 +64,6 @@ To get started with the Blog Application, follow these steps:
 
 6. Access the application in your web browser at `http://localhost:5000`.
 
-## Folder Structure
-The project folder structure is organized as follows:
-
-```
-blog-application/
-│
-├── app/
-│   ├── templates/
-│   │   ├── index.html
-│   │   ├── login.html
-│   │   ├── signup.html
-│   │   ├── ...
-│   ├── static/
-│   │   ├── css/
-│   │   │   ├── style.css
-│   │   │   ├── ...
-│   │   ├── js/
-│   │   │   ├── main.js
-│   │   │   ├── ...
-│   ├── __init__.py
-│   ├── app.py
-│   ├── models.py
-│   ├── routes.py
-│
-├── data/
-│   ├── posts.xlsx
-│   ├── users.xlsx
-│
-├── config.py
-├── requirements.txt
-├── README.md
-```
 
 ## Usage
 Once the application is running, you can access it through your web browser. Register a new user account, log in, and start creating, editing, and deleting blog posts. Use the search functionality to find specific posts.
